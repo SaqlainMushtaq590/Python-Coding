@@ -178,9 +178,9 @@ Contributions, suggestions, and feedback are welcome!
 
 ## 👨‍💻 Author
 
-**Your Name**
-- LinkedIn: [your-linkedin](https://linkedin.com/in/your-profile)
-- GitHub: [your-github](https://github.com/yourusername)
+**Saqlain Mushtaq**
+- LinkedIn: [your-linkedin](https://www.linkedin.com/in/saqlain-mushtaq-844312380/)
+- GitHub: [your-github](https://github.com/SaqlainMushtaq590)
 
 ---
 
