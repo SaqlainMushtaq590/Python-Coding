@@ -179,8 +179,8 @@ Contributions, suggestions, and feedback are welcome!
 ## 👨‍💻 Author
 
 **Saqlain Mushtaq**
-- LinkedIn: [your-linkedin](https://www.linkedin.com/in/saqlain-mushtaq-844312380/)
-- GitHub: [your-github](https://github.com/SaqlainMushtaq590)
+- LinkedIn: [My-linkedin](https://www.linkedin.com/in/saqlain-mushtaq-844312380/)
+- GitHub: [My-github](https://github.com/SaqlainMushtaq590)
 
 ---
 
