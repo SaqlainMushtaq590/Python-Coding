@@ -3,8 +3,15 @@ import streamlit as st
 import pandas as pd
 import pickle
 
-with open("police_arrest_model.pkl", "rb") as file:
+#with open("police_arrest_model.pkl", "rb") as file:
+# NAYA CODE - yeh lagao
+import os
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+model_path = os.path.join(BASE_DIR, "police_arrest_model.pkl")
+
+with open(model_path, "rb") as file:
     model = pickle.load(file)
+    #model = pickle.load(file)
 
 st.set_page_config(page_title="Arrest Predictor", page_icon="🚔")
 st.title("🚔 Police Stop Outcome Predictor")
