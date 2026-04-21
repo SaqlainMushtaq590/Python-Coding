@@ -8,6 +8,11 @@
 > An end-to-end Machine Learning web application that predicts the likelihood of arrest during a police traffic stop — built on real-world data with 65,000+ records.
 
 ---
+## 🌐 Live Demo
+
+👉 **[Click here to try ArrestIQ Live](https://arrest-iq-by-saqlainmushtaq.streamlit.app)**
+
+---
 
 ## 📌 Table of Contents
 
