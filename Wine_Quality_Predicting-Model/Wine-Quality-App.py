@@ -14,7 +14,7 @@ st.markdown("Enter the chemical details below to see if the AI classifies the wi
 @st.cache_resource # Resource is used for external files like models
 def load_models():
     # Loading the files we saved in Jupyter
-    with open('Wine_Scaler.pkl', 'rb') as f:
+    with open('wine_Scaler.pkl', 'rb') as f:
         sc = pickle.load(f)
     with open('Log_Model.pkl', 'rb') as f:
         log = pickle.load(f)
