@@ -10,11 +10,18 @@ st.set_page_config(page_title="Wine Quality AI", layout="wide")
 st.title("🍷 Wine Quality Prediction System")
 st.markdown("Enter the chemical details below to see if the AI classifies the wine as **Good** or **Bad**.")
 
+
+import os
+
+# Ye line add karo file ke top pe
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+
 # --- 2. LOAD THE SAVED BRAINS (PICKLE) ---
 @st.cache_resource # Resource is used for external files like models
 def load_models():
     # Loading the files we saved in Jupyter
-    with open('Wine_Scaler.pkl', 'rb') as f:
+    with open('wine_Scaler.pkl', 'rb') as f:
         sc = pickle.load(f)
     with open('Log_Model.pkl', 'rb') as f:
         log = pickle.load(f)
